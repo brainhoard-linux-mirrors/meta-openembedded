@@ -1,8 +1,8 @@
 DESCRIPTION = "Protocol Buffers"
 HOMEPAGE = "https://developers.google.com/protocol-buffers/"
 SECTION = "devel/python"
-
-LICENSE = "BSD-3-Clause"
+# MIT license is from utf8_range
+LICENSE = "BSD-3-Clause & MIT"
 LIC_FILES_CHKSUM = "file://PKG-INFO;beginline=8;endline=8;md5=53dbfa56f61b90215a9f8f0d527c043d"
 
 inherit pypi setuptools3
